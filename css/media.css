@@ -20,6 +20,9 @@
   section {
     height: fit-content;
   }
+  .partner {
+    margin: 30px 0;
+  }
   .bookStepsContent {
     width: 100%;
   }
