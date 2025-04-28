@@ -21,7 +21,7 @@
     height: fit-content;
   }
   .partner {
-    margin: 30px 0;
+    margin: 30px auto;
   }
   .bookStepsContent {
     width: 100%;
@@ -35,7 +35,7 @@
     margin: 100px 0;
   }
   .reviewCards {
-    width: 90%;
+    width: 100%;
   }
   .subscribe {
     overflow: hidden;
