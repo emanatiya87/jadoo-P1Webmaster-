@@ -210,8 +210,11 @@ nav {
 .navBox ul button {
   color: white;
 }
-.navItems li:hover {
+.navRes li:not(:last-child):hover {
   border-bottom: 2px white solid;
+}
+nav li:not(:last-child):hover {
+  border-bottom: 2px solid rgb(0, 0, 0);
 }
 
 /* cards */
@@ -574,6 +577,7 @@ footer .store {
   padding: 10px 20px;
   border-radius: 30px;
   cursor: pointer;
+  margin: 0 10px 10px 0;
 }
 footer .store i {
   font-size: 1.3rem;
